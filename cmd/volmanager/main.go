@@ -7,9 +7,9 @@ import (
 	"os"
 	"regexp"
 
-	"github.com/gentlemanautomaton/volmgmt/usn"
-	"github.com/gentlemanautomaton/volmgmt/volume"
-	"github.com/gentlemanautomaton/volmgmt/volumeapi"
+	"github.com/jimbertools/volmgmt/usn"
+	"github.com/jimbertools/volmgmt/volume"
+	"github.com/jimbertools/volmgmt/volumeapi"
 )
 
 func main() {

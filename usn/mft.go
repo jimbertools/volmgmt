@@ -4,9 +4,9 @@ import (
 	"errors"
 	"syscall"
 
-	"github.com/gentlemanautomaton/volmgmt/fileref"
-	"github.com/gentlemanautomaton/volmgmt/hsync"
-	"github.com/gentlemanautomaton/volmgmt/volumeapi"
+	"github.com/jimbertools/volmgmt/fileref"
+	"github.com/jimbertools/volmgmt/hsync"
+	"github.com/jimbertools/volmgmt/volumeapi"
 )
 
 const mftBufSize = 8192

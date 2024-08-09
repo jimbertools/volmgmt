@@ -1,7 +1,7 @@
 package usn
 
 import (
-	"github.com/gentlemanautomaton/volmgmt/fileref"
+	"github.com/jimbertools/volmgmt/fileref"
 )
 
 // Filer returns master file table records by looking up file identifiers.

@@ -8,7 +8,7 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/gentlemanautomaton/volmgmt/usn"
+	"github.com/jimbertools/volmgmt/usn"
 )
 
 func usage(errmsg string) {

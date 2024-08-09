@@ -1,6 +1,6 @@
 package main
 
-import "github.com/gentlemanautomaton/volmgmt/usn"
+import "github.com/jimbertools/volmgmt/usn"
 
 func buildFilter(settings Settings) usn.Filter {
 	return func(record usn.Record) bool {

@@ -5,7 +5,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/gentlemanautomaton/volmgmt/fsctl"
+	"github.com/jimbertools/volmgmt/fsctl"
 )
 
 // See:       https://www.microsoft.com/msj/1099/journal2/journal2.aspx

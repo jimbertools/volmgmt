@@ -1,7 +1,7 @@
 package usnfilter
 
 import (
-	"github.com/gentlemanautomaton/volmgmt/usn"
+	"github.com/jimbertools/volmgmt/usn"
 )
 
 // And creates a new filter that returns true only when each filter in filters

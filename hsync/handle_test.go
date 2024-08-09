@@ -4,7 +4,7 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/gentlemanautomaton/volmgmt/hsync"
+	"github.com/jimbertools/volmgmt/hsync"
 )
 
 // acquireHandle acquires a system handle from some source, probably by

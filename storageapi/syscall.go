@@ -5,7 +5,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/gentlemanautomaton/volmgmt/ioctl"
+	"github.com/jimbertools/volmgmt/ioctl"
 )
 
 const (

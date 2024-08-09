@@ -1,4 +1,4 @@
-module github.com/gentlemanautomaton/volmgmt
+module github.com/jimbertools/volmgmt
 
 go 1.19
 

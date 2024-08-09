@@ -3,7 +3,7 @@ package usnfilter
 import (
 	"regexp"
 
-	"github.com/gentlemanautomaton/volmgmt/usn"
+	"github.com/jimbertools/volmgmt/usn"
 )
 
 // PathRegexp returns a filter that returns true when records have a filename

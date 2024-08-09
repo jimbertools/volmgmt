@@ -6,9 +6,9 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/gentlemanautomaton/volmgmt/fileattr"
-	"github.com/gentlemanautomaton/volmgmt/fileref"
-	"github.com/gentlemanautomaton/volmgmt/usnsource"
+	"github.com/jimbertools/volmgmt/fileattr"
+	"github.com/jimbertools/volmgmt/fileref"
+	"github.com/jimbertools/volmgmt/usnsource"
 
 	"golang.org/x/sys/windows"
 )

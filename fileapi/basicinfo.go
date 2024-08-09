@@ -6,7 +6,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/gentlemanautomaton/volmgmt/fileattr"
+	"github.com/jimbertools/volmgmt/fileattr"
 )
 
 // BasicInfo stores basic information about a file. It can be marsheled into
