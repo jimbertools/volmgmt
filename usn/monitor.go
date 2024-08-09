@@ -139,11 +139,8 @@ func (m *Monitor) run(interval time.Duration, cursor *Cursor, sigstop, stopped c
 	defer close(stopped)
 	defer cursor.Close()
 
-	var (
-		buffer [65536]byte
-		p      = buffer[:]
-	)
-
+	buffer := make([]byte, 65536)
+	
 	for {
 		select {
 		case <-sigstop:
@@ -153,7 +150,7 @@ func (m *Monitor) run(interval time.Duration, cursor *Cursor, sigstop, stopped c
 
 		// TODO: Achieve a zero-allocating solution by updating cursor.Next to
 		// receive a buffer of records in addition to the buffer of bytes.
-		records, err := cursor.Next(p)
+		records, err := cursor.Next(buffer)
 
 		if len(records) > 0 {
 			m.broadcast(records)
