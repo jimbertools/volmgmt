@@ -8,10 +8,10 @@ import (
 	"time"
 
 	"github.com/dustin/go-humanize"
-	"github.com/gentlemanautomaton/volmgmt/fileapi"
-	"github.com/gentlemanautomaton/volmgmt/fileattr"
-	"github.com/gentlemanautomaton/volmgmt/usn"
-	"github.com/gentlemanautomaton/volmgmt/volume"
+	"github.com/jimbertools/volmgmt/fileapi"
+	"github.com/jimbertools/volmgmt/fileattr"
+	"github.com/jimbertools/volmgmt/usn"
+	"github.com/jimbertools/volmgmt/volume"
 	"golang.org/x/sys/windows"
 )
 

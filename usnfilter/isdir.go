@@ -1,8 +1,8 @@
 package usnfilter
 
 import (
-	"github.com/gentlemanautomaton/volmgmt/fileattr"
-	"github.com/gentlemanautomaton/volmgmt/usn"
+	"github.com/jimbertools/volmgmt/fileattr"
+	"github.com/jimbertools/volmgmt/usn"
 )
 
 // IsDir is a filter that returns true returns true when a record represents

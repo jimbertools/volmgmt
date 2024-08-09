@@ -7,12 +7,12 @@ import (
 
 	"golang.org/x/sys/windows"
 
-	"github.com/gentlemanautomaton/volmgmt/guidconv"
-	"github.com/gentlemanautomaton/volmgmt/hsync"
-	"github.com/gentlemanautomaton/volmgmt/mountapi"
-	"github.com/gentlemanautomaton/volmgmt/storageapi"
-	"github.com/gentlemanautomaton/volmgmt/usn"
-	"github.com/gentlemanautomaton/volmgmt/volumeapi"
+	"github.com/jimbertools/volmgmt/guidconv"
+	"github.com/jimbertools/volmgmt/hsync"
+	"github.com/jimbertools/volmgmt/mountapi"
+	"github.com/jimbertools/volmgmt/storageapi"
+	"github.com/jimbertools/volmgmt/usn"
+	"github.com/jimbertools/volmgmt/volumeapi"
 )
 
 /*

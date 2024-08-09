@@ -8,8 +8,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/gentlemanautomaton/volmgmt/hsync"
-	"github.com/gentlemanautomaton/volmgmt/volumeapi"
+	"github.com/jimbertools/volmgmt/hsync"
+	"github.com/jimbertools/volmgmt/volumeapi"
 )
 
 const (

@@ -1,8 +1,8 @@
 package ioctl
 
 import (
-	"github.com/gentlemanautomaton/volmgmt/ioctlcode"
-	"github.com/gentlemanautomaton/volmgmt/ioctltype"
+	"github.com/jimbertools/volmgmt/ioctlcode"
+	"github.com/jimbertools/volmgmt/ioctltype"
 )
 
 // I/O control codes for mass storage devices.

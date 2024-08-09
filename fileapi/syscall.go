@@ -5,7 +5,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/gentlemanautomaton/volmgmt/fileref"
+	"github.com/jimbertools/volmgmt/fileref"
 	"golang.org/x/sys/windows"
 )
 

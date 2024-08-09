@@ -3,7 +3,7 @@ package usnfilter
 import (
 	"strings"
 
-	"github.com/gentlemanautomaton/volmgmt/usn"
+	"github.com/jimbertools/volmgmt/usn"
 )
 
 // PathContains returns a filter that returns true when a record's path contains

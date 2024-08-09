@@ -5,8 +5,8 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/gentlemanautomaton/volmgmt/hsync"
-	"github.com/gentlemanautomaton/volmgmt/volumeapi"
+	"github.com/jimbertools/volmgmt/hsync"
+	"github.com/jimbertools/volmgmt/volumeapi"
 )
 
 // Enumerator reads records from a master file table.

@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/gentlemanautomaton/volmgmt/usn"
+	"github.com/jimbertools/volmgmt/usn"
 )
 
 // FileInfoFilter is a filter based on a file's attributes.

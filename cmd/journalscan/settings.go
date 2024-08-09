@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gentlemanautomaton/volmgmt/usn"
+	"github.com/jimbertools/volmgmt/usn"
 )
 
 // Settings hold various settings for a scan.

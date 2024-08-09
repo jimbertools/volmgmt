@@ -6,7 +6,7 @@ import (
 
 	"golang.org/x/sys/windows"
 
-	"github.com/gentlemanautomaton/volmgmt/ioctl"
+	"github.com/jimbertools/volmgmt/ioctl"
 )
 
 const (

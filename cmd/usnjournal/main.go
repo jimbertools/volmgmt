@@ -11,9 +11,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/gentlemanautomaton/volmgmt/fileattr"
-	"github.com/gentlemanautomaton/volmgmt/usn"
-	"github.com/gentlemanautomaton/volmgmt/usnfilter"
+	"github.com/jimbertools/volmgmt/fileattr"
+	"github.com/jimbertools/volmgmt/usn"
+	"github.com/jimbertools/volmgmt/usnfilter"
 	"golang.org/x/sys/windows"
 )
 
