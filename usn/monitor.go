@@ -279,9 +279,9 @@ func (m *Monitor) broadcast(records []Record) {
 		return
 	}
 
-	for r := range records {
+	for _, record := range records {
 		for i := range m.listeners {
-			m.listeners[i] <- records[r]
+			m.listeners[i] <- record
 		}
 	}
 }
